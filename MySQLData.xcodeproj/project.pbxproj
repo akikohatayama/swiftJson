@@ -14,6 +14,8 @@
 		103832011FE78A71008ABE79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103831FF1FE78A71008ABE79 /* LaunchScreen.storyboard */; };
 		1038320C1FE78A71008ABE79 /* MySQLDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1038320B1FE78A71008ABE79 /* MySQLDataTests.swift */; };
 		103832171FE78A71008ABE79 /* MySQLDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103832161FE78A71008ABE79 /* MySQLDataUITests.swift */; };
+		103832251FE7A6CE008ABE79 /* ContentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103832241FE7A6CE008ABE79 /* ContentsTableViewCell.swift */; };
+		42A242CD586414FCAF42CFA4 /* Pods_MySQLData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CAB7B7952DD2C8AA035CA2 /* Pods_MySQLData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		015F921F6F3A0F808F1CF565 /* Pods-MySQLData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySQLData.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySQLData/Pods-MySQLData.release.xcconfig"; sourceTree = "<group>"; };
 		103831F31FE78A71008ABE79 /* MySQLData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySQLData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		103831F61FE78A71008ABE79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		103831F81FE78A71008ABE79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		103832121FE78A71008ABE79 /* MySQLDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySQLDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		103832161FE78A71008ABE79 /* MySQLDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySQLDataUITests.swift; sourceTree = "<group>"; };
 		103832181FE78A71008ABE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		103832241FE7A6CE008ABE79 /* ContentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsTableViewCell.swift; sourceTree = "<group>"; };
+		50CAB7B7952DD2C8AA035CA2 /* Pods_MySQLData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySQLData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		653237C6A6144A2F4DEF33E8 /* Pods-MySQLData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySQLData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySQLData/Pods-MySQLData.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A242CD586414FCAF42CFA4 /* Pods_MySQLData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,8 @@
 				1038320A1FE78A71008ABE79 /* MySQLDataTests */,
 				103832151FE78A71008ABE79 /* MySQLDataUITests */,
 				103831F41FE78A71008ABE79 /* Products */,
+				FC65FBE22CA4B826F39F0B72 /* Pods */,
+				BF468C1C57FAF61DB1F1A663 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +108,7 @@
 			children = (
 				103831F61FE78A71008ABE79 /* AppDelegate.swift */,
 				103831F81FE78A71008ABE79 /* ViewController.swift */,
+				103832241FE7A6CE008ABE79 /* ContentsTableViewCell.swift */,
 				103831FA1FE78A71008ABE79 /* Main.storyboard */,
 				103831FD1FE78A71008ABE79 /* Assets.xcassets */,
 				103831FF1FE78A71008ABE79 /* LaunchScreen.storyboard */,
@@ -125,6 +135,23 @@
 			path = MySQLDataUITests;
 			sourceTree = "<group>";
 		};
+		BF468C1C57FAF61DB1F1A663 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50CAB7B7952DD2C8AA035CA2 /* Pods_MySQLData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC65FBE22CA4B826F39F0B72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				653237C6A6144A2F4DEF33E8 /* Pods-MySQLData.debug.xcconfig */,
+				015F921F6F3A0F808F1CF565 /* Pods-MySQLData.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1038321B1FE78A71008ABE79 /* Build configuration list for PBXNativeTarget "MySQLData" */;
 			buildPhases = (
+				D0585C73891F0BC6D22FAF8B /* [CP] Check Pods Manifest.lock */,
 				103831EF1FE78A71008ABE79 /* Sources */,
 				103831F01FE78A71008ABE79 /* Frameworks */,
 				103831F11FE78A71008ABE79 /* Resources */,
+				1F4B62F898E034D4BB694E8D /* [CP] Embed Pods Frameworks */,
+				9DB93B5769522D0DD556F4FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,11 +284,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F4B62F898E034D4BB694E8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySQLData/Pods-MySQLData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DB93B5769522D0DD556F4FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySQLData/Pods-MySQLData-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0585C73891F0BC6D22FAF8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		103831EF1FE78A71008ABE79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				103832251FE7A6CE008ABE79 /* ContentsTableViewCell.swift in Sources */,
 				103831F91FE78A71008ABE79 /* ViewController.swift in Sources */,
 				103831F71FE78A71008ABE79 /* AppDelegate.swift in Sources */,
 			);
@@ -424,11 +503,13 @@
 		};
 		1038321C1FE78A71008ABE79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 653237C6A6144A2F4DEF33E8 /* Pods-MySQLData.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MU4W3X82X7;
 				INFOPLIST_FILE = MySQLData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.MySQLData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +520,13 @@
 		};
 		1038321D1FE78A71008ABE79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015F921F6F3A0F808F1CF565 /* Pods-MySQLData.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MU4W3X82X7;
 				INFOPLIST_FILE = MySQLData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.MySQLData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
