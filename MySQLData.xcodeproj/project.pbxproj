@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		103831F71FE78A71008ABE79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103831F61FE78A71008ABE79 /* AppDelegate.swift */; };
+		103831F91FE78A71008ABE79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103831F81FE78A71008ABE79 /* ViewController.swift */; };
+		103831FC1FE78A71008ABE79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103831FA1FE78A71008ABE79 /* Main.storyboard */; };
+		103831FE1FE78A71008ABE79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103831FD1FE78A71008ABE79 /* Assets.xcassets */; };
+		103832011FE78A71008ABE79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103831FF1FE78A71008ABE79 /* LaunchScreen.storyboard */; };
+		1038320C1FE78A71008ABE79 /* MySQLDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1038320B1FE78A71008ABE79 /* MySQLDataTests.swift */; };
+		103832171FE78A71008ABE79 /* MySQLDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103832161FE78A71008ABE79 /* MySQLDataUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		103832081FE78A71008ABE79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 103831EB1FE78A71008ABE79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 103831F21FE78A71008ABE79;
+			remoteInfo = MySQLData;
+		};
+		103832131FE78A71008ABE79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 103831EB1FE78A71008ABE79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 103831F21FE78A71008ABE79;
+			remoteInfo = MySQLData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		103831F31FE78A71008ABE79 /* MySQLData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySQLData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		103831F61FE78A71008ABE79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		103831F81FE78A71008ABE79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		103831FB1FE78A71008ABE79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		103831FD1FE78A71008ABE79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		103832001FE78A71008ABE79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		103832021FE78A71008ABE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		103832071FE78A71008ABE79 /* MySQLDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySQLDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1038320B1FE78A71008ABE79 /* MySQLDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySQLDataTests.swift; sourceTree = "<group>"; };
+		1038320D1FE78A71008ABE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		103832121FE78A71008ABE79 /* MySQLDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySQLDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		103832161FE78A71008ABE79 /* MySQLDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySQLDataUITests.swift; sourceTree = "<group>"; };
+		103832181FE78A71008ABE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		103831F01FE78A71008ABE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103832041FE78A71008ABE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1038320F1FE78A71008ABE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		103831EA1FE78A71008ABE79 = {
+			isa = PBXGroup;
+			children = (
+				103831F51FE78A71008ABE79 /* MySQLData */,
+				1038320A1FE78A71008ABE79 /* MySQLDataTests */,
+				103832151FE78A71008ABE79 /* MySQLDataUITests */,
+				103831F41FE78A71008ABE79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		103831F41FE78A71008ABE79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				103831F31FE78A71008ABE79 /* MySQLData.app */,
+				103832071FE78A71008ABE79 /* MySQLDataTests.xctest */,
+				103832121FE78A71008ABE79 /* MySQLDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		103831F51FE78A71008ABE79 /* MySQLData */ = {
+			isa = PBXGroup;
+			children = (
+				103831F61FE78A71008ABE79 /* AppDelegate.swift */,
+				103831F81FE78A71008ABE79 /* ViewController.swift */,
+				103831FA1FE78A71008ABE79 /* Main.storyboard */,
+				103831FD1FE78A71008ABE79 /* Assets.xcassets */,
+				103831FF1FE78A71008ABE79 /* LaunchScreen.storyboard */,
+				103832021FE78A71008ABE79 /* Info.plist */,
+			);
+			path = MySQLData;
+			sourceTree = "<group>";
+		};
+		1038320A1FE78A71008ABE79 /* MySQLDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				1038320B1FE78A71008ABE79 /* MySQLDataTests.swift */,
+				1038320D1FE78A71008ABE79 /* Info.plist */,
+			);
+			path = MySQLDataTests;
+			sourceTree = "<group>";
+		};
+		103832151FE78A71008ABE79 /* MySQLDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				103832161FE78A71008ABE79 /* MySQLDataUITests.swift */,
+				103832181FE78A71008ABE79 /* Info.plist */,
+			);
+			path = MySQLDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		103831F21FE78A71008ABE79 /* MySQLData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1038321B1FE78A71008ABE79 /* Build configuration list for PBXNativeTarget "MySQLData" */;
+			buildPhases = (
+				103831EF1FE78A71008ABE79 /* Sources */,
+				103831F01FE78A71008ABE79 /* Frameworks */,
+				103831F11FE78A71008ABE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySQLData;
+			productName = MySQLData;
+			productReference = 103831F31FE78A71008ABE79 /* MySQLData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		103832061FE78A71008ABE79 /* MySQLDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1038321E1FE78A71008ABE79 /* Build configuration list for PBXNativeTarget "MySQLDataTests" */;
+			buildPhases = (
+				103832031FE78A71008ABE79 /* Sources */,
+				103832041FE78A71008ABE79 /* Frameworks */,
+				103832051FE78A71008ABE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				103832091FE78A71008ABE79 /* PBXTargetDependency */,
+			);
+			name = MySQLDataTests;
+			productName = MySQLDataTests;
+			productReference = 103832071FE78A71008ABE79 /* MySQLDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		103832111FE78A71008ABE79 /* MySQLDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 103832211FE78A71008ABE79 /* Build configuration list for PBXNativeTarget "MySQLDataUITests" */;
+			buildPhases = (
+				1038320E1FE78A71008ABE79 /* Sources */,
+				1038320F1FE78A71008ABE79 /* Frameworks */,
+				103832101FE78A71008ABE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				103832141FE78A71008ABE79 /* PBXTargetDependency */,
+			);
+			name = MySQLDataUITests;
+			productName = MySQLDataUITests;
+			productReference = 103832121FE78A71008ABE79 /* MySQLDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		103831EB1FE78A71008ABE79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "akiko hayashi";
+				TargetAttributes = {
+					103831F21FE78A71008ABE79 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					103832061FE78A71008ABE79 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 103831F21FE78A71008ABE79;
+					};
+					103832111FE78A71008ABE79 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 103831F21FE78A71008ABE79;
+					};
+				};
+			};
+			buildConfigurationList = 103831EE1FE78A71008ABE79 /* Build configuration list for PBXProject "MySQLData" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 103831EA1FE78A71008ABE79;
+			productRefGroup = 103831F41FE78A71008ABE79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				103831F21FE78A71008ABE79 /* MySQLData */,
+				103832061FE78A71008ABE79 /* MySQLDataTests */,
+				103832111FE78A71008ABE79 /* MySQLDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		103831F11FE78A71008ABE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103832011FE78A71008ABE79 /* LaunchScreen.storyboard in Resources */,
+				103831FE1FE78A71008ABE79 /* Assets.xcassets in Resources */,
+				103831FC1FE78A71008ABE79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103832051FE78A71008ABE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103832101FE78A71008ABE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		103831EF1FE78A71008ABE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103831F91FE78A71008ABE79 /* ViewController.swift in Sources */,
+				103831F71FE78A71008ABE79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103832031FE78A71008ABE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1038320C1FE78A71008ABE79 /* MySQLDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1038320E1FE78A71008ABE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103832171FE78A71008ABE79 /* MySQLDataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		103832091FE78A71008ABE79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 103831F21FE78A71008ABE79 /* MySQLData */;
+			targetProxy = 103832081FE78A71008ABE79 /* PBXContainerItemProxy */;
+		};
+		103832141FE78A71008ABE79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 103831F21FE78A71008ABE79 /* MySQLData */;
+			targetProxy = 103832131FE78A71008ABE79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		103831FA1FE78A71008ABE79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				103831FB1FE78A71008ABE79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		103831FF1FE78A71008ABE79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				103832001FE78A71008ABE79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		103832191FE78A71008ABE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1038321A1FE78A71008ABE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1038321C1FE78A71008ABE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU4W3X82X7;
+				INFOPLIST_FILE = MySQLData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.MySQLData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1038321D1FE78A71008ABE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU4W3X82X7;
+				INFOPLIST_FILE = MySQLData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.MySQLData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1038321F1FE78A71008ABE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU4W3X82X7;
+				INFOPLIST_FILE = MySQLDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.MySQLDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySQLData.app/MySQLData";
+			};
+			name = Debug;
+		};
+		103832201FE78A71008ABE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU4W3X82X7;
+				INFOPLIST_FILE = MySQLDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.MySQLDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySQLData.app/MySQLData";
+			};
+			name = Release;
+		};
+		103832221FE78A71008ABE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU4W3X82X7;
+				INFOPLIST_FILE = MySQLDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.MySQLDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySQLData;
+			};
+			name = Debug;
+		};
+		103832231FE78A71008ABE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU4W3X82X7;
+				INFOPLIST_FILE = MySQLDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.MySQLDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySQLData;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		103831EE1FE78A71008ABE79 /* Build configuration list for PBXProject "MySQLData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103832191FE78A71008ABE79 /* Debug */,
+				1038321A1FE78A71008ABE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1038321B1FE78A71008ABE79 /* Build configuration list for PBXNativeTarget "MySQLData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1038321C1FE78A71008ABE79 /* Debug */,
+				1038321D1FE78A71008ABE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1038321E1FE78A71008ABE79 /* Build configuration list for PBXNativeTarget "MySQLDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1038321F1FE78A71008ABE79 /* Debug */,
+				103832201FE78A71008ABE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		103832211FE78A71008ABE79 /* Build configuration list for PBXNativeTarget "MySQLDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103832221FE78A71008ABE79 /* Debug */,
+				103832231FE78A71008ABE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 103831EB1FE78A71008ABE79 /* Project object */;
+}
